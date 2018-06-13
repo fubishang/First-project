@@ -1,0 +1,20 @@
+/* pages/numcount/numcount.wxss */
+
+view {
+  width: 500rpx;
+  height: 500rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+button {
+  width: 150rpx;
+  height: 100rpx;
+  color: olive
+}
+
+label {
+  color: blue;
+  font-size: 100rpx
+}

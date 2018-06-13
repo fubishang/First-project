@@ -1,0 +1,22 @@
+<!--pages/numcount/numcount.wxml-->
+<!-- <text>pages/numcount/numcount.wxml</text> -->
+
+ <!-- <view>
+<button bindtap='clickDec'> - </button>
+<label> {{ count }} </label>
+ <button bindtap='clickAdd'> + </button> 
+
+
+
+</view>  -->
+
+ <button bindtap='clickRem'>点我</button> 
+
+<view>
+  <view wx:for='{{ songList }}' wx:key='{index}'>
+    <image src='{{ item.img }}'></image>
+    <!-- {{title}} -->
+  </view>
+
+
+</view>
